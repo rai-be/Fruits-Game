@@ -1,3 +1,3 @@
 #Uml Caça Niquel
 
-![uml caçaniquel](./static/caçaniquel.uml.png)
+![uml caçaniquel](./static/caçaniquel.png)
