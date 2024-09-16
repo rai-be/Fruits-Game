@@ -7,11 +7,13 @@ public class Main {
 
         MachineImplements machine = new MachineImplements();
 
+        System.out.println("Escolha um nivel, nivel 1 ou nivel 2:");
+        String nivel = scanner.nextLine();
 
         System.out.println("aperte enter para iniciar..");
         scanner.nextLine();
 
-        String resultado = machine.getRandomFruits();
+        String resultado = machine.getRandomFruits(nivel);
         System.out.println(resultado);
 
     }

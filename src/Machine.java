@@ -1,8 +1,6 @@
 public interface Machine {
 
-    // lista de frutas que mudam
-    String getRandomFruits();
+    String getRandomFruits(String nivel);
 
-    // quantos pontos no total
-    int getTotalPoints();
 }
+
